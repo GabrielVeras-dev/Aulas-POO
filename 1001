@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Basico{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double a,b,x;
+
+		System.out.println("Digite o valor de A:");
+		a = ler.nextDouble();
+		System.out.println("Digite o valor de B:");
+		b = ler.nextDouble();
+
+		x = a + b;
+		System.out.println("Valor de X = " + x);
+	}
+
+}
