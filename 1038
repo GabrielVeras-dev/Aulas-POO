@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class Restaurante{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int v = 1,f = 0,cont; 
+		float soma=0, res=0; 
+
+
+
+		System.out.println("___________________________________________");
+		System.out.println("|CODIGO |      ESPECIFICACAO    | VALOR    |");
+		System.out.println("|__________________________________________|");
+		System.out.println("|                                          |");
+		System.out.println("|  1    |      CACHORRO QUENTE  | RS 4.00  |");
+		System.out.println("|  2    |         X-SALADA      | RS 4.50  |");
+		System.out.println("|  3    |         X-BACON       | RS 5.00  |");
+		System.out.println("|  4    |      TORRADA SIMPLES  | RS 2.00  |");
+		System.out.println("|  5    |      REFRIGERANTE     | RS 1.50  |");
+		System.out.println("|__________________________________________|");
+
+		do{
+			int cod=0,quant=0;
+			System.out.println("Deseja compra algo? Se sim digite o CODIGO correspondente ao que desejas:");
+			cod = ler.nextInt();
+
+			switch(cod){
+				case 1: System.out.println("Qual a quantidade?");
+			            quant = ler.nextInt();
+			            res = soma + (4 * quant);		            
+			         	break;
+
+			    default: System.out.println("Valor inválido!"); break;
+			}
+			System.out.println("Deseja comprar mais alguma coisa? Se sim digite 1, se não digite 0");
+			cont = ler.nextInt();
+
+		}while (cont = 1);
+
+
+	}
+}
+
+
+
+
+/* import java.util.Scanner;
+
+public class Basico{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double a,b,x;
+
+		System.out.println("Digite o valor de A:");
+		a = ler.nextDouble();
+		System.out.println("Digite o valor de B:");
+		b = ler.nextDouble();
+
+		x = a + b;
+		System.out.println("Valor de X = " + x);
+	}
+
+}
+
+*/
