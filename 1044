@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Multiplo{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int n,m,k,res;
+		// n é o divisor
+		//	n * k = m;
+		System.out.println("Primeiro numero:");
+		m = ler.nextInt();
+		System.out.println("Divisor:");
+		n = ler.nextInt();
+
+		k = m / n;
+		//  15 / 3 = 5
+		if ((k * n) == m) {
+			System.out.println("Sao multiplos");
+
+		} else {
+			System.out.println("Nao sao multiplos");
+		}
+
+	}
+}
