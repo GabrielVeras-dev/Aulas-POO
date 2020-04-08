@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeiroPrograma {
+public class SalarioBonus {
 
 public static void main(String[] args) {
 
