@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class PositivoMedia{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+		double a,b,c,d,e,f,posi=0,media;
+
+		System.out.println("Valor de A:");
+		a = ler.nextDouble();
+		if (a >= 0){ posi = posi + 1;};
+		
+		System.out.println("Valor de B:");
+		b = ler.nextDouble();	
+		if (b >= 0){ posi = posi + 1;};
+
+		System.out.println("Valor de C:");
+		c = ler.nextDouble();
+		if (c >= 0){ posi = posi + 1 ;};
+		
+		System.out.println("Valor de D:");
+		d = ler.nextDouble();
+		if (d >= 0){ posi = posi + 1;};
+		
+		System.out.println("Valor de E:");
+		e = ler.nextDouble();
+		if (e >= 0){ posi = posi + 1;};
+		
+		System.out.println("Valor de F:");
+		f = ler.nextDouble();
+		if (f >= 0){ posi = posi + 1;};
+		
+		media = (a + b + c + d + e + f) / 6;
+		System.out.println(posi + " valores positivos");
+		System.out.println("Media: " + media);
+
+	}
+}
