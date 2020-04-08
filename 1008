@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Salario {
+
+public static void main(String[] args) {
+
+
+Scanner ler = new Scanner (System.in);
+double nh, vh, salario; 
+
+System.out.println("Escreva o numero do funcionario:");
+ int n1= ler.nextInt();
+System.out.println("Escreva o numero de horas trabalhadas:");
+ nh= ler.nextDouble();
+System.out.println("Escreva o valor que recebe por hora:");
+ vh= ler.nextDouble();
+
+salario= nh*vh;
+
+   System.out.println("Numero do Funcionario = " + n1);
+   System.out.println("Salario = R$" + salario);
+}
+}
