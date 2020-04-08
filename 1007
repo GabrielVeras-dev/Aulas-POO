@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Diferenca{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+		double a,b,c,d,dif;
+		System.out.println("Valor de A:");
+		a = ler.nextDouble();
+
+		System.out.println("Valor de B:");
+		b = ler.nextDouble();
+
+		System.out.println("Valor de C:");
+		c = ler.nextDouble();
+
+		System.out.println("Valor de D:");
+		d = ler.nextDouble();
+
+		dif = (a*b - c*d);
+
+		System.out.println("Diferenca = " + dif);
+	}
+}
