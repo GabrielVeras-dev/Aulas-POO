@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class PrimeiroPrograma {
+
+public static void main(String[] args) {
+
+
+Scanner ler = new Scanner (System.in);
+	
+double salario; 
+
+
+System.out.println("Escreva o valor do salario fixo:");
+ double salariof = ler.nextDouble();
+System.out.println("Escreva o valor das vendas:");
+ double vendas = ler.nextDouble();
+
+salario= (vendas*0.15)+salariof;
+
+   System.out.println("Salario = R$" + salario);
+}
+}
