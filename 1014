@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Consumo {
+
+	public static void main(String[] args) {
+
+	Scanner ler = new Scanner (System.in);
+	double x,y,res;
+
+	System.out.println("Distancia total percorrida:");
+	x = ler.nextDouble();
+
+	System.out.println("Total de combustivel gasto:");
+	y = ler.nextDouble();
+
+	res = x/y;
+	System.out.println( res +" km/l");
+	}
+}
