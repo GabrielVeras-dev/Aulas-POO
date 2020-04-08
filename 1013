@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Maior {
+
+	public static void main(String[] args) {
+
+	Scanner ler = new Scanner (System.in);
+	int a,b,c;
+
+	System.out.println("Escreva 3 valores:");
+	a= ler.nextInt();
+	b= ler.nextInt();
+	c= ler.nextInt();
+
+	if(a>b && a>c){
+	 System.out.println("A o maior:" + a);
+		}else if(b>a && b>c){
+		 System.out.println("B o maior:" + b);
+			}else if(c>a && c>b){
+		 System.out.println("C o maior:" + c);
+		}
+	}
+}
