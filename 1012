@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Area2{
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+		double aTri, aCir, aTrap, aQuad, aRet;
+		double a, b , c; 
+
+		System.out.println("Valor de A");
+		a = ler.nextDouble(); 
+
+		System.out.println("Valor de B:");
+		b = ler.nextDouble();
+
+		System.out.println("Valor de C:");
+		c = ler.nextDouble();
+
+		aTri = (a*c) / 2;
+		aCir = (a*a) * 3.14159;
+		aTrap = ((a+b) * c) / 2;
+		aQuad = b * b;
+		aRet = a * b;
+
+		System.out.println("TRIANGULO: " + aTri);
+		System.out.println("CIRCULO: " + aCir);
+		System.out.println("TRAPEZIO: " + aTrap);
+		System.out.println("QUADRADO: " + aQuad);
+		System.out.println("RETANGULO: " + aRet);
+	}
+}
