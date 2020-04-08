@@ -3,13 +3,9 @@ import java.util.Scanner;
 public class SalarioBonus {
 
 public static void main(String[] args) {
-
-
 Scanner ler = new Scanner (System.in);
 	
 double salario; 
-
-
 System.out.println("Escreva o valor do salario fixo:");
  double salariof = ler.nextDouble();
 System.out.println("Escreva o valor das vendas:");
